@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="'Segoe Print','Comic Sans MS','Chalkboard SE',cursive">
+  <defs>
+    <filter id="hand"><feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="2" seed="3" result="ruis"/><feDisplacementMap in="SourceGraphic" in2="ruis" scale="5"/></filter>
+    <marker id="pijl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10" fill="none" stroke="#d23b2a" stroke-width="2"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="#fbfaf6"/>
+  <text x="80" y="70" font-size="40" fill="#222">Schets 1 – Wachtstand (niemand raakt het scherm aan)</text>
+
+  <g filter="url(#hand)" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- het digibord -->
+    <rect x="80" y="110" width="1440" height="720" rx="22"/>
+    <!-- film -->
+    <rect x="120" y="150" width="900" height="640" rx="16"/>
+    <line x1="120" y1="150" x2="1020" y2="790" stroke="#bbb"/>
+    <line x1="1020" y1="150" x2="120" y2="790" stroke="#bbb"/>
+    <!-- kaart -->
+    <rect x="1060" y="150" width="420" height="640" rx="16"/>
+    <path d="M1300 760 C1290 650 1330 560 1290 470 C1250 380 1300 280 1260 190" stroke-dasharray="10 12"/>
+    <!-- grote tekst + knop -->
+    <rect x="220" y="560" width="700" height="120" rx="20" fill="#fbfaf6"/>
+    <rect x="370" y="700" width="400" height="66" rx="33" fill="#fbfaf6"/>
+  </g>
+  <text x="570" y="635" font-size="46" text-anchor="middle" fill="#222">Raak aan om te varen</text>
+  <text x="570" y="744" font-size="28" text-anchor="middle" fill="#222">Start</text>
+  <text x="570" y="250" font-size="34" text-anchor="middle" fill="#888">FILM 1929</text>
+  <text x="1270" y="250" font-size="30" text-anchor="middle" fill="#888">KAART</text>
+
+  <!-- notities -->
+  <g fill="none" stroke="#d23b2a" stroke-width="3" marker-end="url(#pijl)">
+    <path d="M300 865 C330 830 360 820 380 800"/>
+    <path d="M1180 865 C1160 840 1150 820 1140 800"/>
+  </g>
+  <text x="90" y="888" font-size="26" fill="#d23b2a">de film speelt steeds opnieuw</text>
+  <text x="960" y="888" font-size="26" fill="#d23b2a">90 sec niks aanraken → terug naar hier</text>
+</svg>

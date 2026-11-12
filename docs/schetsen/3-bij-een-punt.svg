@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="'Segoe Print','Comic Sans MS','Chalkboard SE',cursive">
+  <defs>
+    <filter id="hand"><feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="2" seed="8" result="ruis"/><feDisplacementMap in="SourceGraphic" in2="ruis" scale="5"/></filter>
+    <marker id="pijl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10" fill="none" stroke="#d23b2a" stroke-width="2"/></marker>
+    <pattern id="streep" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="22" stroke="#ccc" stroke-width="3"/></pattern>
+  </defs>
+  <rect width="1600" height="900" fill="#fbfaf6"/>
+  <text x="80" y="70" font-size="40" fill="#222">Schets 3 – Bij een punt: toen en nu</text>
+
+  <g filter="url(#hand)" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="80" y="110" width="1440" height="720" rx="22"/>
+    <!-- film: links toen, rechts nu -->
+    <rect x="120" y="150" width="860" height="580" rx="16"/>
+    <line x1="120" y1="150" x2="550" y2="730" stroke="#bbb"/>
+    <line x1="550" y1="150" x2="120" y2="730" stroke="#bbb"/>
+    <rect x="550" y="152" width="428" height="576" fill="url(#streep)" stroke="none"/>
+    <line x1="550" y1="150" x2="550" y2="730" stroke-width="6"/>
+    <circle cx="550" cy="440" r="44" fill="#fbfaf6"/>
+    <rect x="440" y="650" width="220" height="56" rx="28" fill="#fbfaf6"/>
+    <rect x="140" y="170" width="110" height="48" rx="24"/>
+    <rect x="880" y="170" width="80" height="48" rx="24" fill="#fbfaf6"/>
+    <!-- bediening -->
+    <circle cx="160" cy="780" r="32"/>
+    <line x1="215" y1="780" x2="860" y2="780"/>
+    <line x1="215" y1="780" x2="612" y2="780" stroke-width="9"/>
+    <!-- kaart (kleiner) -->
+    <rect x="1020" y="150" width="460" height="290" rx="16"/>
+    <path d="M1290 420 C1280 360 1320 320 1280 270 C1250 230 1290 200 1260 170" stroke-dasharray="10 12"/>
+    <!-- kaartje met tekst -->
+    <rect x="1020" y="460" width="460" height="350" rx="16"/>
+    <line x1="1050" y1="600" x2="1440" y2="600" stroke="#999" stroke-width="3"/>
+    <line x1="1050" y1="635" x2="1420" y2="635" stroke="#999" stroke-width="3"/>
+    <line x1="1050" y1="670" x2="1330" y2="670" stroke="#999" stroke-width="3"/>
+    <rect x="1050" y="720" width="200" height="60" rx="30"/>
+    <rect x="1270" y="720" width="180" height="60" rx="30" fill="#222"/>
+  </g>
+  <text x="550" y="452" font-size="34" text-anchor="middle" fill="#222">⟷</text>
+  <text x="550" y="686" font-size="24" text-anchor="middle" fill="#222">Sleep de lijn</text>
+  <text x="195" y="203" font-size="24" text-anchor="middle" fill="#222">1929</text>
+  <text x="920" y="203" font-size="24" text-anchor="middle" fill="#222">Nu</text>
+  <text x="335" y="300" font-size="30" text-anchor="middle" fill="#888">FILM</text>
+  <text x="765" y="300" font-size="30" text-anchor="middle" fill="#888">FOTO VAN NU</text>
+  <text x="1050" y="510" font-size="20" fill="#888">PUNT 4 VAN 6</text>
+  <text x="1050" y="560" font-size="36" fill="#222">Maartensbrug</text>
+  <text x="1150" y="758" font-size="19" text-anchor="middle" fill="#222">Meer uit archief</text>
+  <text x="1360" y="758" font-size="20" text-anchor="middle" fill="#fbfaf6">Verder varen ▸</text>
+  <circle cx="1262" cy="300" r="22" fill="#222"/>
+  <text x="1262" y="308" font-size="22" text-anchor="middle" fill="#fbfaf6">4</text>
+
+  <!-- notities -->
+  <g fill="none" stroke="#d23b2a" stroke-width="3" marker-end="url(#pijl)">
+    <path d="M330 865 C420 850 500 760 530 490"/>
+    <path d="M1200 866 C1260 850 1330 830 1350 790"/>
+  </g>
+  <text x="90" y="888" font-size="26" fill="#d23b2a">sleep de lijn: links 1929, rechts nu</text>
+  <text x="1010" y="888" font-size="24" fill="#d23b2a">na 20 sec vaart de boot zelf verder</text>
+</svg>

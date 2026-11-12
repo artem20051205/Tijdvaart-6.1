@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" font-family="'Segoe Print','Comic Sans MS','Chalkboard SE',cursive">
+  <defs>
+    <filter id="hand"><feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="2" seed="11" result="ruis"/><feDisplacementMap in="SourceGraphic" in2="ruis" scale="5"/></filter>
+    <marker id="pijl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10" fill="none" stroke="#d23b2a" stroke-width="2"/></marker>
+  </defs>
+  <rect width="1600" height="900" fill="#fbfaf6"/>
+  <text x="80" y="70" font-size="40" fill="#222">Schets 4 – CMS: een punt maken</text>
+
+  <g filter="url(#hand)" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- browser -->
+    <rect x="80" y="110" width="1440" height="720" rx="22"/>
+    <line x1="80" y1="170" x2="1520" y2="170"/>
+    <circle cx="120" cy="140" r="9"/><circle cx="150" cy="140" r="9"/><circle cx="180" cy="140" r="9"/>
+    <!-- film met knop -->
+    <rect x="120" y="210" width="640" height="420" rx="14"/>
+    <line x1="120" y1="210" x2="760" y2="630" stroke="#bbb"/>
+    <line x1="760" y1="210" x2="120" y2="630" stroke="#bbb"/>
+    <line x1="120" y1="665" x2="760" y2="665"/>
+    <circle cx="420" cy="665" r="12" fill="#222"/>
+    <rect x="120" y="710" width="300" height="76" rx="38" fill="#222"/>
+    <!-- kaart met speld -->
+    <rect x="800" y="210" width="680" height="250" rx="14"/>
+    <path d="M1120 450 C1110 380 1150 330 1110 280 C1080 240 1120 230 1100 215" stroke-dasharray="10 12"/>
+    <path d="M1130 330 c-18 -30 -18 -55 0 -60 c18 5 18 30 0 60 Z" fill="#222"/>
+    <!-- velden -->
+    <rect x="800" y="520" width="680" height="54" rx="10"/>
+    <rect x="800" y="620" width="680" height="90" rx="10"/>
+    <rect x="800" y="740" width="220" height="50" rx="10"/>
+    <rect x="1300" y="740" width="180" height="56" rx="28" fill="#222"/>
+  </g>
+  <text x="250" y="150" font-size="24" fill="#888">Beheer – Tijdvaart</text>
+  <text x="440" y="300" font-size="30" text-anchor="middle" fill="#888">FILM</text>
+  <text x="270" y="757" font-size="26" text-anchor="middle" fill="#fbfaf6">Zet punt hier</text>
+  <text x="1300" y="245" font-size="24" fill="#888">KAART</text>
+  <text x="800" y="508" font-size="22" fill="#222">Titel</text>
+  <text x="820" y="557" font-size="24" fill="#888">Maartensbrug</text>
+  <text x="800" y="608" font-size="22" fill="#222">Korte tekst</text>
+  <text x="910" y="772" font-size="20" text-anchor="middle" fill="#222">Foto van nu…</text>
+  <text x="1390" y="776" font-size="24" text-anchor="middle" fill="#fbfaf6">Opslaan</text>
+
+  <!-- notities -->
+  <g fill="none" stroke="#d23b2a" stroke-width="3" marker-end="url(#pijl)">
+    <path d="M300 866 C320 840 300 815 285 795"/>
+    <path d="M1010 866 C1060 700 1100 450 1125 345"/>
+  </g>
+  <text x="90" y="888" font-size="26" fill="#d23b2a">film stilzetten → tijd komt er vanzelf in</text>
+  <text x="900" y="888" font-size="26" fill="#d23b2a">speld naar de goede plek slepen</text>
+</svg>
