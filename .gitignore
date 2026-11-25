@@ -3,3 +3,6 @@ data/*.sqlite
 uploads/*
 !uploads/.htaccess
 !uploads/.gitkeep
+
+# de film is te groot voor GitHub (96 MB)
+assets/*.mp4
