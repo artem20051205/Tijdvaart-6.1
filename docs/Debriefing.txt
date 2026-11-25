@@ -3,13 +3,13 @@ Naam: Artem
 Datum: 12 november 2026
 
 1. De opdracht
-We maken een website voor Het Utrechts Archief. Onze contactpersoon is Ellen Blom.
+Ik maak een website voor Het Utrechts Archief. Mijn contactpersoon is Ellen Blom.
 De Oudegracht wordt 900 jaar. Daarom is er in maart 2027 een tentoonstelling.
 Het doel: mensen kijken met nieuwe ogen naar de Oudegracht en leren waarom de werven bijzonder zijn.
 
 2. Voor wie?
 De website is voor families: kinderen, ouders, opa’s en oma’s, van verschillende leeftijden
-en achtergronden. We gebruiken grote knoppen en korte teksten.
+en achtergronden. Ik gebruik grote knoppen en korte teksten.
 
 3. De website
 De website werkt op een groot touchscreen.
@@ -20,7 +20,7 @@ Dan gaat de film naar die plek en krijg je meer informatie.
 Het archief kan zelf de informatie aanpassen via een CMS.
 
 4. Presentatie
-Op 7 december 2026 presenteren we de website aan een jury
+Op 7 december 2026 presenteer ik de website aan een jury
 bij Het Utrechts Archief, Hamburgerstraat 28 in Utrecht.
 
 5. Planning
@@ -33,4 +33,4 @@ Week4: Alles testen en de presentatie maken.
 - Is er internet bij het scherm?
 - Mag er geluid aan?
 - Hoe groot is het scherm en wat is de resolutie?
-- Wanneer krijgen we het bronmateriaal?
+- Wanneer krijg ik het bronmateriaal?
